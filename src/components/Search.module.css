@@ -1,0 +1,33 @@
+.container{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    margin-bottom:35px;
+}
+
+
+
+label{
+    color:#5E7A7D;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.dollar{
+    position:absolute;
+    left:3%;
+    top:55%;
+}
+
+
+@media  screen and (min-width:1200px){
+  .container{
+    align-items:center;
+    justify-content:center;
+  }
+  .dollar{
+    left:23%;
+}
+
+}

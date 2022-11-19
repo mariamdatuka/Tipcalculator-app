@@ -1,0 +1,54 @@
+.box{
+    display:flex;
+    justify-content: space-between;
+}
+
+.main_box{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    background-color: #00474B;
+    padding:20px;
+    border-radius: 5px;
+}
+
+.span{
+    font-size:12px;
+    color: #7F9D9F;
+
+}
+
+.txt{
+    color:#fff;
+    font-weight: bold;
+    font-size:14px;
+}
+
+.total_amount, .tip_amount{
+    font-size:22px;
+    color:#26C2AE;
+    font-weight:bold;
+
+}
+
+button{
+    border:none;
+    font-family: 'Space Mono', monospace;
+     background-color: #26C2AE;
+     color:#00474B;
+     font-size:16px;
+     font-weight: bold;
+     padding:6px;
+     cursor:pointer;
+     border-radius: 5px;
+     
+}
+
+
+@media screen and (min-width:1200px){
+    button{
+        width:400px;
+        align-self: center;
+    }
+}
+ 
